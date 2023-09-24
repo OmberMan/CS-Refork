@@ -14,7 +14,7 @@
   "requiredBuilding": "Walls",
   "cityStrength": 15,
   "cityHealth": 75,
-  "uniques": ["Only available <with [Belgadian Citadel res]>", "Only available <after discovering [Chivalry]>", 
+  "uniques": ["Only available <with [Belgadian Citadel res]>",
   "Must be on [River]", "Destroyed when the city is captured", "Only available <in cities without a [Castle]>",
   "Only available <in cities without a [Imperialist Citadel]>", "Only available <in cities without a [Sforza's Castle]>"],
 },
@@ -27,7 +27,7 @@
   "cityHealth": 25,
   "replaces": "Castle"
   "cost": 160,
-  "uniques": ["Only available <with [Sforza's Castle res]>", "Only available <after discovering [Chivalry]>",
+  "uniques": ["Only available <with [Sforza's Castle res]>",
   "Destroyed when the city is captured", "Only available <in cities without a [Castle]>",
   "Only available <in cities without a [Imperialist Citadel]>", "Only available <in cities without a [Belgadian Citadel]>"],
 },
@@ -37,7 +37,7 @@
 		"cityHealth": 25,
 		"cost": 160,
 		"requiredBuilding": "Walls",
-		"requiredTech": "Chivalry",
+		"requiredTech": "Engineering",
 		"uniques": ["Destroyed when the city is captured", "Only available <in cities without a [Imperialist Citadel]>",
    "Only available <in cities without a [Belgadian Citadel]>", "Only available <in cities without a [Sforza's Castle]>"]
 	},
@@ -49,7 +49,7 @@
   "requiredBuilding": "Walls",
   "cityStrength": 10,
   "cityHealth": 50,
-  "uniques": ["Only available <with [Imperialist Citadel res]>", "Only available <after discovering [Chivalry]>", 
+  "uniques": ["Only available <with [Imperialist Citadel res]>", 
   "Destroyed when the city is captured", "Only available <in cities without a [Castle]>", 
   "Only available <in cities without a [Belgadian Citadel]>", "Only available <in cities without a [Sforza's Castle]>"],
 },
@@ -73,7 +73,7 @@
   "name": "Castles System"
   "isNationalWonder": true,
   "cost": 300,
-  "uniques": ["Only available <with [Castles System res]>", "Only available <after discovering [Chivalry]>",
+  "uniques": ["Only available <with [Castles System res]>",
   "Gain a free [Castle] [in all cities]", "Requires a [Walls] in all cities"],
 },
 {
@@ -160,7 +160,7 @@
   "replaces": "Garden"
   "production": 2,
   "cost": 120,
-  "uniques": ["Only available <with [Batu Caves res]>", "Only available <after discovering [Theology]>",
+  "uniques": ["Only available <with [Batu Caves res]>", "Only available <after discovering [Philosophy]>",
   "[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]",
   "Only available <in cities without a [Garden]>"],
   "maintenance": 1,
@@ -171,7 +171,7 @@
     "Only available <in cities without a [Batu Caves]>"],
 		"hurryCostModifier": 120,
 		"maintenance": 1,
-		"requiredTech": "Theology"
+		"requiredTech": "Philosophy"
 	},
 {
   "name": "Museum of Civilizations",
@@ -223,7 +223,7 @@
   "cost": 120,
   "gold": 2,
   "replaces": "Harbor",
-  "uniques": ["Only available <with [Fillipian Harbor rea]>", "Only available <after discovering [Compass]>",
+  "uniques": ["Only available <with [Fillipian Harbor rea]>", "Only available <after discovering [Astronomy]>",
   "[+1 Production] from [Water resource] tiles [in this city]", "Connects trade routes over water",
   "Must be next to [Coast]", "[+1 Gold] from [Coast] tiles [in this city]", "[+1 Gold] from [Ocean] tiles [in this city]",
   "Only available <in cities without a [Harbor]>", "Only available <in cities without a [Genoese Port]>",
@@ -234,7 +234,7 @@
   "name": "Venetian Arsenal",
   "cost": 120,
   "replaces": "Harbor",
-  "uniques": ["Only available <with [Venetian Arsenal res]>", "Only available <after discovering [Compass]>",
+  "uniques": ["Only available <with [Venetian Arsenal res]>", "Only available <after discovering [Astronomy]>",
   "[+1 Production] from [Water resource] tiles [in this city]", "Connects trade routes over water",
   "Must be next to [Coast]", "Only available <in cities without a [Harbor]>", 
   "Only available <in cities without a [Fillipian Harbor]>", "Only available <in cities without a [Genoese Port]>",
@@ -245,7 +245,7 @@
   "name": "Entrepot",
   "cost": 120,
   "replaces": "Harbor",
-  "uniques": ["Only available <with [Entrepot res]>", "Only available <after discovering [Compass]>",
+  "uniques": ["Only available <with [Entrepot res]>", "Only available <after discovering [Astronomy]>",
   "[+1 Production] from [Water resource] tiles [in this city]", "Connects trade routes over water",
   "Must be next to [Coast]", "Only available <in cities without a [Harbor]>", 
   "Only available <in cities without a [Fillipian Harbor]>", "Only available <in cities without a [Genoese Port]>", "Only available <in cities without a [Venetian Arsenal]>",
@@ -260,13 +260,13 @@
 		"Connects trade routes over water","Must be next to [Coast]"
   "Only available <in cities without a [Genoese Port]>", "Only available <in cities without a [Fillipian Harbor]>",
   "Only available <in cities without a [Venetian Arsenal]>", "Only available <in cities without a [Entrepot]>"],
-		"requiredTech": "Compass"
+		"requiredTech": "Astronomy"
 	},
 {
   "name": "Genoese Port",
   "cost": 120,
   "replaces": "Harbor",
-  "uniques": ["Only available <with [Genoese Port res]>", "Only available <after discovering [Compass]>",
+  "uniques": ["Only available <with [Genoese Port res]>", "Only available <after discovering [Astronomy]>",
   "[+1 Production] from [Water resource] tiles [in this city]", "Connects trade routes over water",
   "Must be next to [Coast]", "Only available <in cities without a [Harbor]>", 
   "Only available <in cities without a [Fillipian Harbor]>", "Only available <in cities without a [Venetian Arsenal]>",
@@ -284,7 +284,7 @@
   "name": "Grenville-Iland",
   "percentStatBonus": {"culture": 15},
   "cost": 160,
-  "uniques": ["Only available <with [Grenville-Iland res]>", "Only available <after discovering [Compass]>",
+  "uniques": ["Only available <with [Grenville-Iland res]>", "Only available <after discovering [Astronomy]>",
   "Must be next to [Coast]", "[+1 Culture] from [Coast] tiles [in this city]"],
   "maintenance": 2,
 },
@@ -299,14 +299,14 @@
   "name": "Boudhanath Stupa",
   "isNationalWonder": true,
   "cost": 150,
-  "uniques": ["Only available <with [Boudhanath Stupa res]>", "Only available <after discovering [Theology]>",
+  "uniques": ["Only available <with [Boudhanath Stupa res]>", "Only available <after discovering [Philosophy]>",
   "Provides a [Temple] in your first [4] cities for free", "[+1 Faith] from every [Shrine]"],
 },
 {
   "name": "Island Tourism",
   "cost": 160,
-  "uniques": ["Only available <with [Island Tourism res]>", "Only available <after discovering [Compass]>",
-  "[+2 Gold] from [Land] tiles <with [4] to [6] neighboring [Coast] tiles> [in this city]", "[+1 Gold] from [Atoll] tiles [in this city]"],
+  "uniques": ["Only available <with [Island Tourism res]>", "Only available <after discovering [Astronomy]>",
+  "[+1 Gold] from [Coast] tiles [in this city]", "[+4 Gold] from [Atoll] tiles [in this city]"],
   "maintenance": 1,
 },
 {
@@ -413,7 +413,7 @@
 		"name": "Temple of the Tooth",
 		"isNationalWonder": true,
 		"cost": 250,
-		"uniques": ["Only available <with [Temple of the Tooth res]>", "Only available <after discovering [Theology]>",
+		"uniques": ["Only available <with [Temple of the Tooth res]>", "Only available <after discovering [Philosophy]>",
 					"Free Great Person"],
 	},
 {
@@ -460,7 +460,7 @@
   "name": "Palace of Nations",
   "isNationalWonder": true,
   "cost": 350,
-  "uniques": ["Only available <with [Palace of Nations res]>", "Only available <after discovering [Civil Service]>",
+  "uniques": ["Only available <with [Palace of Nations res]>", "Only available <after discovering [Engineering]>",
   "When declaring friendship, both parties gain a [5]% boost to great person generation"]
 },
 {
