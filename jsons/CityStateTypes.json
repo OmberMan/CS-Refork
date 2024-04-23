@@ -73,7 +73,7 @@
             "[+26 Culture] <starting from the [Industrial era]>",
 			"[+2 Culture] from every [Shrine]", 
 			"[+2 Culture] from every [Temple]",
-            "Provides [1] [Tibetan Kumbum res]", "[Longswordsman] units gain the [Shaolin] promotion", 
+            "Provides [1] [Tibetan Kumbum res]", "[Swordsman] units gain the [Shaolin] promotion", 
             "Unique Improvement [Tibetan Kumbum]", "Unique Unit [Shaolin]"
         ],
         "color": [139, 96, 255]
@@ -92,7 +92,7 @@
             "[+26 Culture] <starting from the [Industrial era]>",
 			"[+3 Culture] from every [Walls]",
 			"[+2 Culture] from every [Castle]",
-             "Provides [1] [Sforza's Castle res]", "[Knight] units gain the [Milanese Knight] promotion", 
+             "Provides [1] [Sforza's Castle res]", "[Horseman] units gain the [Milanese Knight] promotion", 
             "Unique Building [Sforza's Castle]", "Unique Unit [Milanese Knight]"
         ],
         "color": [139, 96, 255]
@@ -250,7 +250,7 @@
             "Provides a unique luxury",
 			"[+2 Gold] from each Trade Route",
             "Provides [1] [Venetian Arsenal res]", 
-        "[Galleass] units gain the [Greatt Galleass] promotion", "Unique Building [Venetian Arsenal]",
+        "[Trireme] units gain the [Greatt Galleass] promotion", "Unique Building [Venetian Arsenal]",
         "Unique Unit [Greatt Galleass]"
         ],
         "color": [255, 216, 0]
@@ -278,7 +278,7 @@
 			"[+2 Gold] from every [Harbor]",
 			"[+2 Gold] from every [Seaport]",
             "Provides [1] [Diamond production res]", 
-            "[Pikeman] units gain the [Rondachier] promotion", "Unique Building [Diamond production]",
+            "[Spearman] units gain the [Rondachier] promotion", "Unique Building [Diamond production]",
             "Unique Unit [Rondachier]"
         ],
         "color": [255, 216, 0]
@@ -302,7 +302,7 @@
             "Provides a unique luxury",
 			"[+25]% Production when constructing [{Military} {Water}] units [in all cities]",
             "Provides [1] [Genoese Port res]", 
-            "[Crossbowman] units gain the [Genoese Crossbowman] promotion", "Unique Building [Genoese Port]",
+            "[Composite Bowman] units gain the [Genoese Crossbowman] promotion", "Unique Building [Genoese Port]",
             "Unique Unit [Genoese Crossbowman]"
         ],
         "color": [255, 216, 0]
@@ -374,7 +374,7 @@
             "Provides a unique luxury",
 			"[+2 Gold] from every [Luxury resource]",
             "Provides [1] [Island Tourism res]", 
-            "[Longswordsman] units gain the [Suahili warrior] promotion", "Unique Building [Island Tourism]",
+            "[Swordsman] units gain the [Suahili warrior] promotion", "Unique Building [Island Tourism]",
             "Unique Unit [Suahili warrior]"
         ],
         "color": [255, 216, 0]
@@ -455,7 +455,7 @@
 			"[+6]% [Production] from every [Barracks]",
 			"[+6]% [Production] from every [Armory]",
 			"[+6]% [Production] from every [Military Academy]",
-        "Provides [1] [Aport production res]", "[Lancer] units gain the [Fiery Nomad] promotion", 
+        "Provides [1] [Aport production res]", "[Horseman] units gain the [Fiery Nomad] promotion", 
         "Unique Building [Aport production]", "Unique Unit [Fiery Nomad]"
 		],
         "color": [255, 0, 0]
@@ -483,7 +483,7 @@
         "allyBonusUniques": [
 			"Provides military units every ≈[17] turns"
 			"[+20]% Strength <for [Melee] units>",
-       "[Swordsman] units gain the [Adageiros] promotion", "[Longswordsman] units gain the [Ambundu] promotion",
+       "[Swordsman] units gain the [Adageiros] promotion", "[Swordsman] units gain the [Ambundu] promotion",
        "Unique Unit [Adageiros]", "Unique Unit [Ambundu]"
 		],
         "color": [255, 0, 0]
@@ -517,7 +517,7 @@
         "allyBonusUniques": [
 			"Provides military units every ≈[17] turns"
 			"[+50]% Strength <vs cities>", 
-       "Provides [1] [Castle-Wall res]", "[Crossbowman] units gain the [Difensur] promotion", 
+       "Provides [1] [Castle-Wall res]", "[Composite Bowman] units gain the [Difensur] promotion", 
        "Unique Building [Castle-Wall]", "Unique Unit [Difensur]"
 		],
         "color": [255, 0, 0]
@@ -545,7 +545,7 @@
         "allyBonusUniques": [
 			"Provides military units every ≈[17] turns",
 			"[+4 Science] [in all cities] <in [Hill] tiles>",
-        "Provides [1] [Alcazar res]", "[Crossbowman] units gain the [Granadian Army] promotion", 
+        "Provides [1] [Alcazar res]", "[Composite Bowman] units gain the [Granadian Army] promotion", 
             "Unique Building [Alcazar]", "Unique Unit [Granadian Army]"
 		],
         "color": [255, 0, 0]
@@ -569,7 +569,7 @@
             "[+26 Faith] <starting from the [Industrial era]>",
 			"[Gold] cost of purchasing items in cities [-25]%",
 			"[Faith] cost of purchasing items in cities [-25]%",
-        "Provides [1] [Castles System res]", "[Knight] units gain the [Slavic Knight] promotion", 
+        "Provides [1] [Castles System res]", "[Horseman] units gain the [Slavic Knight] promotion", 
         "Unique Building [Castles System]", "Unique Unit [Slavic Knight]"
         ],
         "color": [255, 255, 255]
@@ -606,7 +606,7 @@
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Faith] <starting from the [Industrial era]>",
 			"Religion naturally spreads to cities [+4] tiles away",
-            "Provides [1] [Monastic School res]", "[Knight] units gain the [Zealot] promotion", 
+            "Provides [1] [Monastic School res]", "[Horseman] units gain the [Zealot] promotion", 
             "Unique Building [Monastic School]", "Unique Unit [Zealot]"
         ],
         "color": [255, 255, 255]
@@ -734,7 +734,7 @@
             "[+12 Science] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Science] <starting from the [Industrial era]>",
 			"[+10] HP when healing",
-            "Provides [1] [Neptun Statue res]", "[Cavalry] units gain the [Mounted Velites] promotion", 
+            "Provides [1] [Neptun Statue res]", "[Horseman] units gain the [Mounted Velites] promotion", 
             "Unique Building [Neptun Statue]", "Unique Unit [Mounted Velites]"
         ],
         "color": [0,0,255]
@@ -752,7 +752,7 @@
             "[+12 Science] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Science] <starting from the [Industrial era]>",
 			"When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]",
-           "Provides [1] [Merdese res]", "[Privateer] units gain the [Berber Pirates] promotion", 
+           "Provides [1] [Merdese res]", "[Trireme] units gain the [Berber Pirates] promotion", 
             "Unique Building [Merdese]", "Unique Unit [Berber Pirates]"
         ],
         "color": [0,0,255]
@@ -770,7 +770,7 @@
             "[+12 Science] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Science] <starting from the [Industrial era]>",
 			"[+20]% [Science] <when not at war>",
-        "Provides [1] [Palace of Nations res]", "[Pikeman] units gain the [Swiss Pikeman] promotion", 
+        "Provides [1] [Palace of Nations res]", "[Spearman] units gain the [Swiss Pikeman] promotion", 
             "Unique Building [Palace of Nations]", "Unique Unit [Swiss Pikeman]"
         ],
         "color": [0,0,255]
@@ -865,7 +865,7 @@
             "[+4 Production] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+8 Production] [in all cities] <starting from the [Industrial era]>",
 			"[+20]% Production when constructing [All] wonders [in all cities]",
-        "Provides [1] [Atomium res]", "[Pikeman] units gain the [Thrust] promotion", 
+        "Provides [1] [Atomium res]", "[Spearman] units gain the [Thrust] promotion", 
             "Unique Building [Atomium]", "Unique Unit [Thrust]"
         ],
         "color": [139,69,19]
@@ -885,7 +885,7 @@
             "[+8 Production] [in all cities] <starting from the [Industrial era]>",
 			"[+2 Production] [in all cities connected to capital] <before the [Medieval era]>",
             "[+4 Production] [in all cities connected to capital] <starting from the [Medieval era]>",
-            "Provides [1] [Trading Port res]", "[Caravel] units gain the [Pirate Hunter] promotion", 
+            "Provides [1] [Trading Port res]", "[Trireme] units gain the [Pirate Hunter] promotion", 
             "Unique Building [Trading Port]", "Unique Unit [Pirate Hunter]"
         ],
         "color": [139,69,19]
@@ -940,7 +940,7 @@
             "[+8 Production] [in all cities] <starting from the [Industrial era]>",
 			"[+1 Happiness] from every [Bonus resource]",
 			"[+1 Happiness] from every [Strategic resource]",
-            "Provides [1] [Ocupada Stable res]", "[Cavalry] units gain the [Gaucho] promotion", 
+            "Provides [1] [Ocupada Stable res]", "[Horseman] units gain the [Gaucho] promotion", 
             "Unique Building [Ocupada Stable]", "Unique Unit [Gaucho]"
         ],
         "color": [139,69,19]
