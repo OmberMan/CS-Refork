@@ -8,7 +8,7 @@
 },
 {
   "name": "Belgadian Citadel"
-  "replaces": "Castle",
+  "requiredTech": "Engineering",
   "culture": 3,
   "cost": 160,
   "requiredBuilding": "Walls",
@@ -25,7 +25,7 @@
   "requiredBuilding": "Walls",
   "cityStrength": 7,
   "cityHealth": 25,
-  "replaces": "Castle"
+  "requiredTech": "Engineering",
   "cost": 160,
   "uniques": ["Only available <with [Sforza's Castle res]>",
   "Destroyed when the city is captured", "Only available <in cities without a [Castle]>",
@@ -35,6 +35,8 @@
 		"name": "Castle",
 		"cityStrength": 7,
 		"cityHealth": 25,
+  "culture": 1,
+  "maintanence": 1,
 		"cost": 160,
 		"requiredBuilding": "Walls",
 		"requiredTech": "Engineering",
@@ -43,7 +45,7 @@
 	},
 {
   "name": "Imperialist Citadel"
-  "replaces": "Castle",
+  "requiredTech": "Philosophy",
   "percentStatBonus": {"culture": 15},
   "cost": 160,
   "requiredBuilding": "Walls",
@@ -103,7 +105,7 @@
   "name": "Sinagoga"
   "requiredBuilding": "Shrine",
   "culture": 3,
-  "replaces": "Temple",
+  "requiredTech": "Philosophy",
   "faith": 3,
   "cost": 100,
   "uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", 
@@ -115,7 +117,7 @@
 {
   "name": "Zigguratt"
   "culture": 2,
-  "replaces": "Temple",
+  "requiredTech": "Calendar",
   "requiredBuilding": "Shrine",
   "faith": 2,
   "cost": 100,
@@ -157,7 +159,7 @@
   "name": "Batu Caves"
   "percentStatBonus": {"production": 5},
   "faith": 3,
-  "replaces": "Garden"
+  "requiredTech": "Philosophy",
   "production": 2,
   "cost": 120,
   "uniques": ["Only available <with [Batu Caves res]>", "Only available <after discovering [Philosophy]>",
@@ -194,7 +196,7 @@
 {
   "name": "Ickanda",
   "cost": 75,
-  "replaces": "Barracks",
+  "requiredTech": "Bronze Working",
   "uniques": ["Only available <with [Ickanda res]>", "Only available <after discovering [Bronze Working]>",
   "All newly-trained [Land] units [in this city] receive the [Great Generals I] promotion",
   "Only available <in cities without a [Barracks]>", "Destroyed when the city is captured",
@@ -222,7 +224,7 @@
   "name": "Fillipian Harbor",
   "cost": 120,
   "gold": 2,
-  "replaces": "Harbor",
+  "requiredTech": "Optics",
   "uniques": ["Only available <with [Fillipian Harbor rea]>", "Only available <after discovering [Optics]>",
   "[+1 Production] from [Water resource] tiles [in this city]", "Connects trade routes over water",
   "Must be next to [Coast]", "[+1 Gold] from [Coast] tiles [in this city]", "[+1 Gold] from [Ocean] tiles [in this city]",
@@ -233,7 +235,7 @@
 {
   "name": "Venetian Arsenal",
   "cost": 120,
-  "replaces": "Harbor",
+  "requiredTech": "Optics",
   "uniques": ["Only available <with [Venetian Arsenal res]>", "Only available <after discovering [Optics]>",
   "[+1 Production] from [Water resource] tiles [in this city]", "Connects trade routes over water",
   "Must be next to [Coast]", "Only available <in cities without a [Harbor]>", 
@@ -244,7 +246,7 @@
 {
   "name": "Entrepot",
   "cost": 120,
-  "replaces": "Harbor",
+  "requiredTech": "Optics",
   "uniques": ["Only available <with [Entrepot res]>", "Only available <after discovering [Optics]>",
   "[+1 Production] from [Water resource] tiles [in this city]", "Connects trade routes over water",
   "Must be next to [Coast]", "Only available <in cities without a [Harbor]>", 
@@ -265,7 +267,7 @@
 {
   "name": "Genoese Port",
   "cost": 120,
-  "replaces": "Harbor",
+  "requiredTech": "Optics",
   "uniques": ["Only available <with [Genoese Port res]>", "Only available <after discovering [Optics]>",
   "[+1 Production] from [Water resource] tiles [in this city]", "Connects trade routes over water",
   "Must be next to [Coast]", "Only available <in cities without a [Harbor]>", 
@@ -321,7 +323,7 @@
 	{
 		"name": "Iminti",
 		"maintenance": 0,
-                "replaces": "Mint",
+   "requiredTech": "Currency",
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
 		"cost": 100,
 		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "Only available <in cities without a [Mint]>",
@@ -345,7 +347,7 @@
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"cost": 100,
-                "replaces": "Stable",
+               "requiredTech": "Horseback Riding",
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", "Only available <in cities without a [Stable]>",
                 "Only available <with [Ocupada Stable res]>", "Only available <after discovering [Horseback Riding]>",
 			"[+1 Production] from [Cattle] tiles [in this city]",
@@ -375,7 +377,7 @@
 	
 	{		
 		"name": "Caravan Camp",
-		"replaces": "Market",
+		"requiredTech": "Currency",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"cost": 100,
@@ -383,20 +385,9 @@
 		"uniques": ["Only available <in cities without a [Market]>",
                 "Only available <after discovering [Currency]>","Only available <with [Caravan Camp res]>"],
 },
-{
-	"name": "Public School",
-	"science": 3,
-	"specialistSlots": {"Scientist": 1},
-	"requiredBuilding": "University",
-	"maintenance": 3,
-	"cost": 300,
-	"uniques": ["[+1 Science] per [2] population [in this city]","Only available <in cities without a [Monastic School]>"],
-	"requiredTech": "Philosophy"
-},
-
 	{
 		"name": "Monastic School",
-		"replaces": "Public School",
+		"requiredTech": "Theology",
 		"science": 3,
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "University",
@@ -439,23 +430,13 @@
                      "faith": 20},
   "culture": 2,
   "cost": 160,
-  "replaces": "University",
+  "requiredTech": "Philosophy",
   "requiredBuilding": "Library",
   "specialistSlots": {"Scientist": 2},
   "uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "Only available <in cities without a [University]>", 
   "Only available <with [Merdese res]>", "Only available <after discovering [Philosophy]>"],
   "maintenance": 2,
 },
-{
-		"name": "University",
-		"maintenance": 2,
-		"cost": 160,
-		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Scientist": 2},
-		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "Only available <in cities without a [Merdese]>"],
-		"requiredTech": "Education"
-	},
 {
   "name": "Palace of Nations",
   "isNationalWonder": true,
@@ -473,10 +454,11 @@
 	},
 {
 		"name": "Lion Gate",
-                "replaces": "Walls",
+               "requiredTech": "Masonry",
 		"cityStrength": 7,
 		"cityHealth": 50,
-                "percentStatBonus": {"culture": 10}
+  "gold": 2,
+                "percentStatBonus": {"culture": 5}
 		"cost": 75,
 		"uniques": ["Only available <with [Lion Gate res]>", "Only available <after discovering [Masonry]>",
                 "Destroyed when the city is captured", "Only available <in cities without a [Walls]>", "[+2 Culture] <with [Marble]>"]
